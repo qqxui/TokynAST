@@ -1,0 +1,12 @@
+{
+  "name": "tokyn-ast",
+  "version": "2.0.0",
+  "description": "Tokyn AST - JavaScript-based Lua 5.1 / Luau Abstract Syntax Tree obfuscator engine",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/t-e2e.js && node test/t-luau-stress.js && node test/t-misc.js && node test/t-encoding-roundtrip.js && node test/t-strarray.js && node test/t-strarray2.js && node test/t-protections.js && node test/t-new-ciphers.js && node test/t-stress-ciphers.js && node test/t-file-roundtrip.js && node test/t-cff-fakepaths.js && node test/t-environment-checks.js && node test/t-environment-checks-detection.js && node test/t-v2-features.js",
+    "rebuild": "node build-bundle.js"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
